@@ -1,10 +1,9 @@
 * {
-  margin: 0;
+  margin: 00;
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
-}
-
+} 
 
 /* Pozíconálás */
 
@@ -23,7 +22,7 @@ body {
   text-align: center;
 }
 
-.head, .content {
+.head, content {
   width: 90%;
   margin: 0 auto;
 }
@@ -48,7 +47,11 @@ li {
 }
 .content {
   padding: 5% 10%;
-  border-top: 1px solid hsla(324, 98%, 60%, .2);
+  border-top: 2px solid gray;
+}
+
+.about {
+  text-shadow: 2px 2px #808080;
 }
 
 body {
@@ -56,7 +59,7 @@ body {
   background-size: cover;
   font-family: 'Indie Flower', cursive;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 24px;
 
 }
 
@@ -67,7 +70,8 @@ body {
 }    
 img {
   padding: 3px;
-  background-color: powderblue;
+  background-color: SteelBlue;
+;
   filter: grayscale(20%);
   transition: all 0.5s ease-in-out;
 }
@@ -87,6 +91,7 @@ h1 {
   font-weight: italic;
   text-transform: uppercase;
   letter-spacing: -4;
+  text-shadow: 2px 2px #808080;
 }
 
 h2 {
@@ -98,12 +103,15 @@ h2 {
 h3 {
   font-family: cursive;
   font-size: 15px;
+}
 
+h4 {
+  color: #800000;
 }
 
 
 a:link{color:#BBB9BC;transition: all 0.3s ease-out; text-transform:uppercase; font-size:30px;}
 a:visited{color:#BBB9BC;text-transform:uppercase; font-size:25px;}
 a:active{color:#BBB9BC;text-transform:uppercase; font-size:25px;}
-a:hover{color:#8B0000;text-transform:uppercase; font-size:25px;}
+a:hover{color:#4169E1;text-transform:uppercase; font-size:25px;}
  
