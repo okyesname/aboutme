@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+/* Pozíconálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head, links, div {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: -50px;
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(324, 98%, 60%, .2);
+}
+
+body {
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+.profile-card {
+  background-color: hsla(199, 98%, 60%, .2);
+  border-radius: 50px;
+  box-shadow: 10px 15px 10px;
+}    
+img {
+  padding: 3px;
+  background-color: powderblue;
+  filter: grayscale(20%);
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+  filter: grayscale(20%);
+  transform: scale(1.1)
+}
+
+span, h2 {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: italic;
+  text-transform: uppercase;
+  letter-spacing: -4;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 15px;
+  letter-spacing:4px;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 15px;
+
+}
+
+
+a:link{color:#BBB9BC;transition: all 0.3s ease-out; text-transform:uppercase; font-size:30px;}
+a:visited{color:#BBB9BC;text-transform:uppercase; font-size:25px;}
+a:active{color:#BBB9BC;text-transform:uppercase; font-size:25px;}
+a:hover{color:#8B0000;text-transform:uppercase; font-size:25px;}
+ 
