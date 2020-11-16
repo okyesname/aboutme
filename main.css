@@ -12,7 +12,7 @@
 .profile-card {
   width: 680px;
   max-width: calc(100vw - 10px);
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 body {
@@ -113,9 +113,8 @@ h3 {
 }
 
 h4 {
-  color: #800000;
+  margin-bottom: 15px;
 }
-
 
 a:link{color:#BBB9BC;transition: all 0.3s ease-out; text-transform:uppercase; font-size:30px;}
 a:visited{color:#BBB9BC;text-transform:uppercase; font-size:25px;}
@@ -124,27 +123,3 @@ a:hover{color:#4169E1;text-transform:uppercase; font-size:25px;}
 
 /* Galéria */
  
-ul.assets {
-  width: 780px;
-  margin: 0 auto;
-  padding: 2px;
-  list-style-type: none;
-  border: 0px solid #888;
-  background: #eee;
-  overflow: auto;
-}
-
-ul.assets li {
-  float:left;
-}
-
-ul.assets li a img {
-  margin: 3px;
-  padding: 2px;
-  background: #fff;
-  border: 0px solid #000;
-}
-
-ul.assets li a:hover img {
-  border-color: deeppink;
-}
